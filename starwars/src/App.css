@@ -1,3 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -6,3 +12,23 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+b {
+  color: red;
+}
+
+button {
+  width: 200px;
+  background-color: lime;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
