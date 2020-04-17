@@ -15,3 +15,20 @@
 b {
   color: red;
 }
+
+button {
+  width: 200px;
+  background-color: lime;
+  color: black;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: white;
+}
